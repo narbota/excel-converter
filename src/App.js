@@ -8,7 +8,7 @@ function App() {
       
       <h1>Hello, World! This is the excel uploader</h1>
       <h2>It is {new Date().toLocaleTimeString()}.</h2>
-      <button>Click me for your excel files</button>
+      <button onClick={()=> alert('Click me for some stuff!')}>Click me for your excel files</button>
     </div>
   );
 }
